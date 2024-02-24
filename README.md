@@ -23,9 +23,4 @@ Given the nature of satellite data, we employed data augmentation techniques to 
 For evaluating the performance of our model during training, we implemented two metrics: the Dice coefficient and the Intersection over Union (IoU) score. These metrics provide insights into the accuracy and consistency of the model's segmentation outputs.
 ## Results
 
-### Model Training
-
-- **Loaded Model:** The model was successfully loaded from the specified path `drive/MyDrive/model_epoch_9.pt`.
-- **Continued Training:** Training resumed from epoch 10.
-- **Training Duration:** Training for one epoch took approximately 18 minutes and 14 seconds.
 
