@@ -21,6 +21,3 @@ Given the nature of satellite data, we employed data augmentation techniques to 
 ### Metric and Cost Function Evaluation
 
 For evaluating the performance of our model during training, we implemented two metrics: the Dice coefficient and the Intersection over Union (IoU) score. These metrics provide insights into the accuracy and consistency of the model's segmentation outputs.
-## Results
-
-
