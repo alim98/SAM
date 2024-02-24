@@ -21,3 +21,22 @@ Given the nature of satellite data, we employed data augmentation techniques to 
 ### Metric and Cost Function Evaluation
 
 For evaluating the performance of our model during training, we implemented two metrics: the Dice coefficient and the Intersection over Union (IoU) score. These metrics provide insights into the accuracy and consistency of the model's segmentation outputs.
+## Results
+
+### Model Training
+
+- **Loaded Model:** The model was successfully loaded from the specified path `drive/MyDrive/model_epoch_9.pt`.
+- **Continued Training:** Training resumed from epoch 10.
+- **Training Duration:** Training for one epoch took approximately 18 minutes and 14 seconds.
+
+### Metrics Evaluation
+
+- **Dice Coefficient Metric:** The Dice coefficient metric yielded a tensor of values, with one value notably negative (-6.8739), indicating significant deviation from expected performance.
+- **IoU Metric:** The Intersection over Union (IoU) metric provided a tensor of values, showing a mix of positive and negative values. One class had a negative IoU (-0.7746), suggesting poor segmentation performance for that class.
+
+### Epoch Summary
+
+- **Epoch:** 10
+- **Mean Loss:** 0.5125231067836284
+
+These results indicate the need for further analysis and potential adjustments to improve model performance.
