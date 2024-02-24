@@ -21,7 +21,3 @@ Given the nature of satellite data, we employed data augmentation techniques to 
 ### Metric and Cost Function Evaluation
 
 For evaluating the performance of our model during training, we implemented two metrics: the Dice coefficient and the Intersection over Union (IoU) score. These metrics provide insights into the accuracy and consistency of the model's segmentation outputs.
-
----
-
-This README provides an overview of our deep neural network project for semantic segmentation. For more detailed instructions on running the code and reproducing the results, please refer to the documentation provided in the repository. Contributions and feedback are welcome!
