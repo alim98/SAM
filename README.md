@@ -2,7 +2,7 @@
 Segment Anything Model (SAM)
 # Deep Neural Network Project README
 
-## Semantic Segmentation using Meta's Model Fine-Tuning
+## Semantic Segmentation using Meta's Model Fine-Tuning (Segment Anything Model)
 
 This project focuses on fine-tuning Meta's newly released model for the semantic segmentation problem. The goal is to accurately label each pixel in satellite images depicting water bodies.
 
